@@ -37,6 +37,9 @@ h3{
         margin: 15px 40px;
         width: 80%;
     }
+    .Hf{
+        text-align: start;
+    }
     .card-text{
         text-align: start;
     }
