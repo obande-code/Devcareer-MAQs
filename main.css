@@ -32,7 +32,7 @@ h3{
     .col-sm-12{
         padding: 30px 0;
     }
-    .H5, .P5{
+    .H5, .P5 a{
         text-align: justify;
         margin: 15px 40px;
         width: 80%;
