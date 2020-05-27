@@ -16,13 +16,33 @@ h3{
     margin-top: 90px;
 }
 
+.row1{
+    display: flex;
+    flex-direction: column;
+}
+
 @media(max-width:720px){
     .hero{
         background-image: url('./Images/Frame.png');
         background-position: center;
         background-size: cover cover;
         background-repeat: no-repeat; 
+        position: relative;
 
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn .btn-sm {
+        width: 50%;
+    }
+
+    .man{
+        width: 80%;
+        margin: auto 25px;
     }
     h3,p {
         text-align: center;
@@ -45,12 +65,10 @@ h3{
         text-align: start;
     }
     .box{
-       
-       margin: 150px 30px;
-       width: 50%;
-    }
-    .box .btn{
-        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
