@@ -109,6 +109,9 @@ h3{
 .card a{
     border: none;
 }
+.man{
+    margin-left: 50px;
+}
 
 @media(max-width:720px){
     .row1{
