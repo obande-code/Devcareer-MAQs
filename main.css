@@ -120,7 +120,11 @@ h3{
         align-items: center;
         justify-content: center;
     }
-    #man-content{
+    .bccbtn{
+        text-align: center;
+        margin: auto 0;
+    }
+    #man-content #h5, #para1, #para2, a{
         width: 100%;
         text-align: center;
     }
