@@ -120,9 +120,21 @@ h3{
         align-items: center;
         justify-content: center;
     }
+    #man-content{
+        width: 80%;
+        text-align: center;
+    }
+    #man-content #para2{
+        font-size: 12px;
+    }
     .btn{
         width: 200px;
         height: 60px;
+    }
+
+    .btn .btn-primary{
+        text-align: center;
+        margin-top: 20px;
     }
 
     .man{
