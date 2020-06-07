@@ -120,9 +120,15 @@ h3{
         align-items: center;
         justify-content: center;
     }
-    #man-content #h5, #para1, #para2, a{
-        width: 100%;
-        text-align: center;
+    .enroll{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #h5,#para1,#para2,a{
+       text-align: justify;
+       max-width: 80%;
+       margin: 50px 0;
     }
     #man-content #para2{
         font-size: 12px;
