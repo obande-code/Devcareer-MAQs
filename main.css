@@ -114,6 +114,10 @@ h3{
 }
 
 @media(max-width:600px){
+    body{
+        background: 2f4858;
+        color: white;
+    }
     .enroll{
         display: flex;
         justify-content: center;
