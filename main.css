@@ -113,17 +113,15 @@ h3{
     margin-left: 50px;
 }
 
-@media(max-width:720px){
-    .row1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+@media(max-width:600px){
     .enroll{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .enroll a{
+        text-align: center;
+       margin-top: 50px;
     }
     #h5,#para1,#para2,a{
        text-align: justify;
@@ -132,11 +130,6 @@ h3{
     }
     #man-content #para2{
         font-size: 12px;
-    }
-    .btn{
-        width: 200px;
-        height: 60px;
-        text-align: center;
     }
 
     .btn .btn-primary{
